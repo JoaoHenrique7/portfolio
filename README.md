@@ -115,7 +115,7 @@ Para mais informações:
 * Python - Principal ferramenta para a lógica da raspagem de dados.
 * Flask - Uma especie de framework com a finalidade de ser o servidor no qual o projeto web foi rodado.
 * SQL - Um tipo de Linguagem de consulta usado em bancos relacionais, usado para manipulação dos dados salvos no SQLite.
-* SQLite - Banco de dados relacional escolidos para armazenamento dos dados raspados pelo Python.
+* SQLite - Banco de dados relacional escolhidos para armazenamento dos dados raspados pelo Python.
 * AWS - Serviço da Amazon, que é uma VM (Máquina Virtual) usado para hospedar o site web rodado pelo Flask.
 * Github - Usado para salvar e vercionar o código de toda equipe.
 * Figma - Usado para prototipação das telas e designs das apresentações.
