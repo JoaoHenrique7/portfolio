@@ -40,6 +40,10 @@ Desenvolvedor Pleno - Casacor.
 - De: 09/2023
 - Atualmente...
 
+Gestor de Projetos -  Grupo Guard Brasil.
+- De: 09/2023
+- Atualmente...
+
 ## Contatos:
 * [GIT](https://github.com/JoaoHenrique7)
 * [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-henrique-trist%C3%A3o-b63385207/)
@@ -141,29 +145,233 @@ Já na ultima sprint, foi focada em melhorias e correções de bugs, onde pudemo
 
 
 #### Hard Skills
-* HTML5 - Possuo total autonomia para estruturar páginas web.
-* CSS3 - Possuo total autonomia para estruturar páginas web.
-* JavaScript - Possuo total autonomia para manipular o DOM e desenvolver lógica, além de uso e impletações de Frameroks derivados.
-* Python - Tenho total autonomia para desenvolver lógica e manipulação de dados.
-* SQL - Possuo total autonomia para realizar operações de manipulação de dados em sistemas de banco de dados (CRUD).
+- **HTML5:** Possuo total autonomia para estruturar páginas web.
+- **CSS3:** Possuo total autonomia para estruturar páginas web.
+- **JavaScript:** Possuo total autonomia para manipular o DOM e desenvolver lógica, além de uso e impletações de Frameroks derivados.
+- **Python:** Tenho total autonomia para desenvolver lógica e manipulação de dados.
+- **SQL:** Possuo total autonomia para realizar operações de manipulação de dados em sistemas de banco de dados (CRUD).
 
 #### Soft Skills
-* Comunicação - Exercitei minhas habilidades de comunicação para expor ideias, planejamentos e esclarecer dúvidas com a equipe, visando o melhor andamento e desenvolvimento das atividades ao longo da sprint.
-* Organização - Exercitei minhas habilidades de organização ao conciliar minhas demandas da sprint com as dos meus colegas, garantindo que eu pudesse ajudar sempre que necessário.
-* Proatividade - Demonstrei proatividade ao finalizar minhas atividades e imediatamente buscar outras nas quais pudesse contribuir, além de estar sempre disponível caso meus colegas precisassem.
-* Responsabilidade - Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
+- **Comunicação:** Exercitei minhas habilidades de comunicação para expor ideias, planejamentos e esclarecer dúvidas com a equipe, visando o melhor andamento e desenvolvimento das atividades ao longo da sprint.
+
+- **Organização:** Exercitei minhas habilidades de organização ao conciliar minhas demandas da sprint com as dos meus colegas, garantindo que eu pudesse ajudar sempre que necessário.
+
+- **Proatividade:** Demonstrei proatividade ao finalizar minhas atividades e imediatamente buscar outras nas quais pudesse contribuir, além de estar sempre disponível caso meus colegas precisassem.
+
+- **Responsabilidade:** Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
+
+- **Empatia:** Pratiquei empatia ao reconhecer e considerar as necessidades e perspectivas dos meus colegas de equipe, criando um ambiente de trabalho colaborativo e positivo.
+
+---
 
 ### Em 2022-2
-Mesmo formato
+
+No segundo semestre de 2022, estabelecemos uma parceria com a empresa Trackcash, especializada em soluções de reconciliação financeira direcionadas a e-commerces, marketplaces e estabelecimentos físicos.
+
+Nessa conjuntura, fomos encarregados de conceber um software desktop projetado para fornecer aos clientes da Trackcash acesso a dados sobre suas transações. O propósito era oferecer uma experiência intuitiva, apresentando informações através de planilhas e painéis de controle, com o intuito de facilitar a elaboração de estratégias financeiras mais precisas e identificar eventuais gargalos ao término de cada período de vendas.
+
+Um dos elementos cruciais deste empreendimento residia no sistema de autenticação e registro. Isso se deve ao fato de que, durante o processo de cadastro, era imprescindível incluir detalhes específicos, como o nome do canal de vendas (por exemplo: Mercado Livre, Americanas), a categoria do canal (seja Marketplace ou plataforma de pagamento) e o método de autenticação empregado (seja por meio de credenciais de usuário/senha ou Token). Para atender a esses requisitos, dispensamos especial atenção à concepção e desenvolvimento do banco de dados, garantindo que todas as necessidades da Trackcash fossem abordadas de maneira eficiente.
+
+**Observação:** É válido ressaltar que, neste projeto, os clientes também são referidos como canais.
+
+<br>
+  <h4 align="center"><br><a href="https://www.youtube.com/watch?v=UtJIXQ2DS-o">Youtube (Qualidade melhor)</a></h4>
+  <p align="center">
+    <img src="/readme/2022-2/Cadastro_canais_adm.gif" width="60%" />
+</p>
+
+<br>
+  <h4 align="center"><br><a href="https://youtu.be/MpbO26x4V6s">Youtube (Qualidade melhor)</a></h4>
+  <p align="center">
+    <img src="/readme/2022-2/Config_canais.gif" width="60%" />
+</p>
+
+<br>
+  <h4 align="center"><br><a href="https://www.youtube.com/watch?v=Ayp1KyIrV_s">Youtube (Qualidade melhor)</a></h4>
+  <p align="center">
+    <img src="/readme/2022-2/Config_canais_token.gif" width="60%" />
+</p>
+<br>
+
+Para mais informações:
+[GIT](https://github.com/JoaoHenrique7/API-FATEC-2-SEM/tree/main)
+
+#### Tecnologias Utilizadas
+* Java - Linguagem base para fazer todo o backend.
+* JavaFX - Uma ferramenta para fazer o frontend.
+* SQL - Linguagem de Banco de dados escolhida para fazer as querys.
+* MYSQL - Banco de dados escolhidos para armazenamento de dados.
+* Github - Usado para salvar e vercionar o código de toda equipe.
+* Figma - Usado para prototipação das telas e designs das apresentações.
+* Slack - Principal meio de comunicação entre o Cliente e a nossa Equipe
+
+#### Contribuições Pessoais
+
+No desenvolvimento desse projeto, pude contribuir como Product Owner (PO), responsável por intermediar com o cliente (através da ferramenta Slack) e traduzir suas ideias e necessidades em tarefas para a equipe de desenvolvimento. Posteriormente, organizei essas tarefas de acordo com a prioridade de entrega ao cliente.
+
+Após a divisão das prioridades em sprints, foi essencial validar o escopo definido com o cliente. Após ajustar as alterações solicitadas, essa validação foi repetida. Uma vez confirmadas as entregas, enviei o wireframe desenvolvido no Figma para aprovação do layout pelo cliente. Com a resposta positiva, as tarefas foram iniciadas pela equipe de desenvolvimento.
+
+Paralelamente, a equipe realizou a modelagem do banco de dados, levantando os requisitos de negócio, identificando entidades, atributos e relacionamentos entre elas, elaborando o diagrama entidade-relacionamento (DER) e, por fim, iniciando a implementação do banco de dados.
+
+Durante as entregas, mantivemos contato frequente com o cliente para possíveis ajustes, sempre mantendo a conformidade com a ideia inicial aprovada. No início de cada Sprint, o Backlog era enviado para reforçar as entregas previstas ao longo da Sprint para o cliente.
+
+
+<br>
+  <h3 align="center">Modelo de dados relacional</h3>
+  <h4 align="center">Modelo conceitual<br></h4>
+  <p align="center">
+    <img src="/readme/2022-2/Diagramtrackcash.bmp" width="65%" />
+</p>
+  <p align="justify">A princípio foram identificadas as seguintes entidades: <i>defaultChannels</i>; <i>users</i>; <i>registeredChannelLogin</i>; <i>registeredChannelToken</i>. A entidade <i>defaultChannels</i> contêm informações sobre o canal (chave primária), nome, tipo e padrão de autenticação. A entidade <i>users</i> abriga informações relativas aos usuários (chave primária), nome, e-mail, senha, telefone, documento e tipo de usuário. A entidade <i>registeredChannelLogin</i> contêm informações dos canais do tipo de autenticação usuário/senha, sendo o atributo <i>registeredChannelLogin_id</i> a chave primária; <i>user_id</i> chave estrangeira da tabela <i>users</i>; e <i>channel_id</i> chave estrangeira da tabela <i>defaultChannels</i>. Por fim, <i>registeredChannelToken</i> contempla o tipo de autenticação token, na qual o atributo <i>registeredChannelToken_id</i> a chave primária; <i>user_id</i> chave estrangeira da tabela <i>users</i>; e <i>channel_id</i> chave estrangeira da tabela <i>defaultChannels</i>.</p>
+
+  <br>
+  <h4 align="center">Modelo lógico<br></h4>
+  <p align="center">
+    <img src="/readme/2022-2/apiTrackCashERDiagrama.png" width="65%" />
+  </p>
+  <p align="justify">O modelo de dados lógico é caracterizado pelas entidades: <i>defaultChannels</i>; <i>users</i>; <i>registeredChannelLogin</i>; <i>registeredChannelToken</i>. A entidade <i>defaultChannels</i> contêm os seguintes atributos: <i>channel_id</i> (chave primária) do tipo inteiro, <i>name</i> do tipo baseado em caracteres, <i>type</i> do tipo caracteres; e <i>auth</i> baseado em carateres. A entidade <i>users</i> abriga os atributos: <i>user_id</i> (chave primária) do tipo inteiro, <i>name</i> do tipo baseado em caracteres, <i>email</i> do tipo baseado em caracteres, <i>password</i> do tipo baseado em caracteres, <i>phone</i> do tipo baseado em inteiro, <i>document</i> do tipo baseado em caracteres e <i>type_adm</i> do tipo baseado em caracteres. A entidade <i>registeredChannelLogin</i> contêm informações dos canais do tipo de autenticação usuário/senha, sendo o atributo <i>registeredChannelLogin_id</i> a chave primária do tipo inteiro; <i>login</i> do tipo baseado em caracteres; <i>password</i> do tipo baseado em caracteres; <i>user_id</i> chave estrangeira da tabela <i>users</i>; e <i>channel_id</i> chave estrangeira da tabela <i>defaultChannels</i>. Por fim, <i>registeredChannelToken</i> contempla o tipo de autenticação token, na qual o atributo <i>registeredChannelToken_id</i> a chave primária do tipo inteiro; <i>token</i> do tipo inteiro; <i>user_id</i> chave estrangeira da tabela <i>users</i>; e <i>channel_id</i> chave estrangeira da tabela <i>defaultChannels</i>.</p>
+    <p align="justify">As relações entre as entidades são todas do tipo <b>1:N</b>, onde:</p>
+    <ul>
+      <li align="justify"><i>defaultChannels</i> se associa a muitas ocorrências da entidade <i>registeredChannelToken</i>, mas <i>registeredChannelToken</i> pode se associar a uma ocorrência da entidade <i>defaultChannels</i></li>
+      <li align="justify"><i>defaultChannels</i> se associa a muitas ocorrências da entidade <i>registeredChannelLogin</i>, mas <i>registeredChannelLogin</i> pode se associar a uma ocorrência da entidade <i>defaultChannels</i></li>
+      <li align="justify"><i>users</i> se associa a muitas ocorrências da entidade <i>registeredChannelToken</i>, mas <i>registeredChannelToken</i> pode se associar a uma ocorrência da entidade <i>users</i></li>
+      <li align="justify"><i>users</i> se associa a muitas ocorrências da entidade <i>registeredChannelLogin</i>, mas <i>registeredChannelLogin</i> pode se associar a uma ocorrência da entidade <i>users</i></li>
+    </ul>
+    <br>
+
+#### Hard Skills
+* Java: Tenho a capacidade de desenvolver de forma autônoma a parte do servidor utilizando essa linguagem, aplicando os princípios da Programação Orientada a Objetos (POO).
+* JavaFX: Sou hábil na criação autônoma de interfaces gráficas de usuário (GUIs).
+* SQL: Demonstro habilidade para realizar operações essenciais de manipulação de dados em sistemas de bancos de dados (CRUD).
+
+#### Soft Skills
+- **Comunicação:** Por estar na posição de PO, tive a oportunidade de aprimorar minhas habilidades de comunicação ao interagir com o cliente, além dos demais integrantes da equipe e pude compartilhar minhas ideias durante as reuniões diárias. Além disso, durante as sessões de revisão de código e planejamento, tive a chance de expressar minhas opiniões e contribuir para a discussão sobre as melhores abordagens para a implementação de funcionalidades.
+- **Organização:** Pela parte de PO, organizar as ideias do cliente para passar a equipe de desenvolviemnto, já no desenvolvimento do projeto, tive a oportunidade de praticar minhas habilidades de organização ao planejar e priorizar minhas tarefas de acordo com os requisitos e prazos estabelecidos. Ao manter um cronograma claro e focado, consegui cumprir os objetivos da sprint e contribuir para o sucesso do projeto.
+- **Liderança:** Durante o desenvolvimento do projeto, tive a oportunidade de demonstrar minha liderança ao assumir a iniciativa e propor ideias para melhores estratégias do desenvolvimento.
+
+---
 
 ### Em 2023-1
-Mesmo formato
+No primeiro semestre de 2023, firmamos uma parceria com a empresa Visiona. Como parte dessa colaboração, recebemos a responsabilidade de conceber e implementar um sistema de gerenciamento de usuários, utilizando uma abordagem baseada em arquitetura de micro serviços.
+
+O objetivo principal deste empreendimento foi desenvolver uma aplicação web escalável, fundamentada em microsserviços e equipada com um painel de controle intuitivo. Essa plataforma foi projetada para oferecer aos usuários funcionalidades essenciais, como criar, visualizar, editar e excluir perfis de usuário.
+
+<br>
+  <h4 align="center"><br><a href="https://www.youtube.com/watch?v=wU2duyaZ-yg">Youtube (Qualidade melhor)</a></h4>
+  <p align="center">
+    <img src="/readme/2023-1/login_dashboard.gif" width="60%" />
+</p>
+<br>
+
+Para mais informações:
+[GITHUB](https://github.com/JoaoHenrique7/API-FATEC-3-SEM/tree/Development)
+
+#### Tecnologias Utilizadas
+* React - Linguagem/Framework utilizado para estruturar o frontend.
+* NodeJS - Linguguem utilizada para estruturar o backend.
+* SQL - Linguagem de Banco de dados escolhida para fazer as querys.
+* Postgres - Banco de dados escolhidos para armazenamento de dados.
+* Github - Usado para salvar e vercionar o código de toda equipe.
+* Figma - Usado para prototipação das telas e designs das apresentações.
+
+#### Contribuições Pessoais
+Durante o desenvolvimento deste projeto, desempenhei diversas funções como integrante da equipe de desenvolvimento. Uma parte significativa do meu trabalho envolveu a elaboração do sistema de autenticação. Nesta fase inicial, trabalhei em estreita colaboração com colegas para desenvolver o sistema de login, criação de conta e recuperação de conta. Além disso, contribuí para a criação das demais rotas do backend, o que me permitiu aprofundar meu conhecimento nas bibliotecas do Node.js.
+
+Adicionalmente, assumi a responsabilidade pela elaboração do backend, com ênfase na criação dos middlewares e no tratamento de dados que seriam utilizados no processo de login e autenticação do usuário. No que diz respeito à recuperação de conta, foi utilizado o e-mail como meio de comunicação para validar se o PIN é válido para a recuperação.
+
+<br>
+  <h3 align="center">Modelo de dados relacional</h3>
+  <h4 align="center">Modelo conceitual<br></h4>
+  <p align="center">
+    <img src="/readme/2023-1/modeloConceitual_BD.png" width="65%" />
+</p>
+  <p align="justify">A princípio foram identificadas as seguintes entidades: <i>User</i> e <i>Profile</i>. A entidade <i>User</i> contêm informações sobre os usuários do sistema com os atributos <i>ID</i> chave primária da tabela; <i>fullName</i>; <i>userName</i>; <i>cpf</i> chave única; <i>email</i>; <i>password</i>; <i>active</i>; <i>createDate</i>; <i>lastUpdate</i>. A entidade <i>Profile</i> abriga informações relativas aos perfis dos usuários, diferenciando os tipos de usuários (p.ex. Administrador e Usuários) através do atributo <i>type</i> para atribuir permissões relativas a cada classificação de perfil.Essa entidade é composta pelos atributos <i>ID</i> que é a chave primária; <i>userID</i> chave estrangeira da tabela <i>Users</i>; e <i>type</i>.</p>
+
+  <br>
+  <h4 align="center">Modelo lógico<br></h4>
+  <p align="center">
+    <img src="/readme/2023-1/modeloLogico_BD.png" width="65%" />
+  </p>
+  <p align="justify">O modelo de dados lógico é caracterizado pelas entidades: <i>User</i> e <i>Profile</i>. A entidade <i>User</i> contêm os seguintes atributos: <i>ID</i> (chave primária) do tipo inteiro, <i>fullName</i> do tipo baseado em caracteres, <i>userName</i> do tipo baseado em caracteres, <i>cpf</i> do tipo baseado em caracteres, <i>email</i> do tipo baseado em caracteres, <i>password</i> do tipo baseado em caracteres, <i>active</i> do tipo booleano, <i>createdDate</i> do tipo dateTime e <i>lastUpdate</i> do tipo dateTime. A entidade <i>Profile</i> contêm os seguintes atributos: <i>ID</i> (chave primária) do tipo inteiro, <i>userID</i> (chave extrangeira) do tipo baseado em caracteres e <i>type</i> do tipo TinyInt. </p>
+    <p align="justify">As relações entre as entidades são todas do tipo <b>1:1</b>, onde:</p>
+    <br>
+
+#### Hard Skills
+* React - Sou capaz de desenvolver o frontend de forma modularizada e orientada a componentes com independência.
+* NodeJS - Possuo habilidade para criar o backend utilizando NodeJS de forma autônoma.
+* Docker - Possuo o conceito de manipulação de docker.
+* Figma - Tenho habilidade para desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.
+* SQL - Possuo autonomia para realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e também capacidade de modelar um banco de dados.
+    
+#### Soft Skills
+
+- **Comunicação:** Minha atuação ativa como Scrum Master na equipe de desenvolvimento me proporcionou uma melhoria significativa em minhas habilidades de comunicação. Facilitar as reuniões diárias e contribuir para as discussões durante os encontros semanais com o professor exigiu uma comunicação clara e eficaz. Por exemplo, em uma dessas reuniões semanais, destaquei os desafios técnicos específicos enfrentados pela equipe e propus soluções colaborativas que abordavam tanto o desenvolvimento do código quanto a organização das tarefas.
+
+- **Organização:** Enquanto desempenhava o papel de Scrum Master e membro da equipe de desenvolvimento, desenvolvi minhas habilidades organizacionais ao equilibrar as demandas de ambas as funções. Manter registros atualizados do progresso do projeto e coordenar as atividades da equipe exigiram uma abordagem organizada e proativa. Por exemplo, diante de uma carga de trabalho intensa durante uma sprint, priorizei as tarefas com base nas necessidades do projeto e no cronograma estabelecido, garantindo uma entrega pontual e eficiente.
+
+- **Responsabilidade:** Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
+
+---
 
 ### Em 2023-2
-Mesmo formato
+No segundo semestre de 2023, demos início a um projeto em colaboração com a Greenneat, uma plataforma dedicada à promoção da economia circular, concentrada na coleta e reciclagem de óleo de cozinha.
+
+Criamos uma plataforma online que permite aos parceiros da empresa coletar óleo de estabelecimentos e revendê-lo à Greenneat, recebendo créditos em troca. Esses créditos podem ser utilizados para adquirir saneantes produzidos pela Greenneat e disponibilizados em seu site. Os parceiros também têm acesso a um painel para monitorar suas transações, enquanto os estabelecimentos acompanham suas compras e saldos de crédito. O administrador supervisiona a plataforma e tem acesso a um painel de controle com informações relevantes, como o desempenho de descarte e a participação dos parceiros e estabelecimentos na economia circular.
+
+  <p align="center">
+    <img src="/readme/2023-2/cadastro.gif" width="65%" />
+  </p>
+  
+  <br>
+  <p align="center">
+    <img src="/readme/2023-2/login_recuperacaoSenha.gif" width="65%" />
+  </p>
+
+Para mais informações:
+[GITHUB](https://github.com/JoaoHenrique7/API-FATEC-4-SEM)
+
+#### Tecnologias Utilizadas
+* React - Linguagem/Framework utilizado para estruturar o frontend.
+* NodeJS - Linguguem utilizada para estruturar o backend.
+* SQL - Linguagem de Banco de dados escolhida para fazer as querys.
+* SQLite - Banco de dados escolhidos para armazenamento de dados.
+* Github - Usado para salvar e vercionar o código de toda equipe.
+* Figma - Usado para prototipação das telas e designs das apresentações.
+
+#### Contribuições Pessoais
+No desenvolvimento deste projeto, desempenhei o papel de desenvolvedor, contribuindo em diversas etapas cruciais do processo. Inicialmente, minha responsabilidade foi centrada no desenvolvimento do sistema de registro de usuários, permitindo que cada indivíduo inserisse suas informações básicas, como CPF e outros detalhes relevantes. Na segunda fase, concentrei meus esforços na implementação da visualização das transações e saldos individuais de cada usuário, criando uma tabela dinâmica que atualizava automaticamente os saldos conforme as transações eram realizadas. Aproveitei essa etapa para introduzir novas funcionalidades e resolver eventuais problemas encontrados durante a interação com a tabela.
+
+Posteriormente, na terceira etapa do projeto, direcionei minha energia para aprimorar ainda mais a experiência do usuário. Adicionei novas funcionalidades e realizei correções para garantir o bom funcionamento do sistema. Dedicando-me à correção de bugs e à implementação de melhorias, assegurei que a tabela de transações oferecesse uma experiência fluida e sem problemas para os usuários. Por fim, na última fase, implementei restrições de acesso baseadas nos tipos de usuário, reforçando a segurança e a privacidade dentro da plataforma. Essa medida foi crucial para organizar e controlar o sistema, proporcionando uma experiência de uso mais personalizada e segura para todos os usuários.
+
+<br>
+<h3 align="center">Modelo de dados relacional</h3>
+<h4 align="center">Modelo conceitual<br></h4>
+<p align="center">
+    <img src="/readme/2023-2/modeloConceitualSprint4.png" width="65%"/>
+</p>
+
+<br>
+<h4 align="center">Modelo lógico<br></h4>
+<p align="center">
+    <img src="/readme/2023-2/modeloLogicoSprint4.png" width="65%"/>
+</p>
+
+#### Hard Skills
+* React - Linguagem/Framework utilizado para estruturar o frontend.
+* NodeJS - Linguguem utilizada para estruturar o backend.
+* Figma - Tenho habilidade para desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.
+* SQL - Possuo autonomia para realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e também capacidade de modelar um banco de dados.
+    
+#### Soft Skills
+ -**Comunicação**: Pratiquei minhas habilidades de comunicação ao apresentar ideias, planos e esclarecer dúvidas com a equipe, com o objetivo de garantir a eficiência e progresso das atividades durante a sprint.
+ - **Organização:** Exercitei minhas habilidades de organização ao conciliar minhas demandas da sprint com as dos meus colegas, garantindo que eu pudesse ajudar sempre que necessário.
+- **Proatividade:** Demonstrei proatividade ao finalizar minhas atividades e imediatamente buscar outras nas quais pudesse contribuir, além de estar sempre disponível caso meus colegas precisassem.
+- **Responsabilidade:** Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
 
 ### Em 2024-1
 Mesmo formato
+
+---------
 
 ### Em 2024-2
 Mesmo formato
