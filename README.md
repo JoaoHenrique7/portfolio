@@ -357,8 +357,8 @@ Posteriormente, na terceira etapa do projeto, direcionei minha energia para apri
 </p>
 
 #### Hard Skills
-* React - Linguagem/Framework utilizado para estruturar o frontend.
-* NodeJS - Linguguem utilizada para estruturar o backend.
+* React - Sou capaz de desenvolver o frontend de forma modularizada e orientada a componentes com independência.
+* NodeJS - Possuo habilidade para criar o backend utilizando NodeJS de forma autônoma.
 * Figma - Tenho habilidade para desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.
 * SQL - Possuo autonomia para realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e também capacidade de modelar um banco de dados.
     
@@ -368,8 +368,95 @@ Posteriormente, na terceira etapa do projeto, direcionei minha energia para apri
 - **Proatividade:** Demonstrei proatividade ao finalizar minhas atividades e imediatamente buscar outras nas quais pudesse contribuir, além de estar sempre disponível caso meus colegas precisassem.
 - **Responsabilidade:** Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
 
+----------
 ### Em 2024-1
-Mesmo formato
+
+No primeiro semestre de 2024, foi estabelecida uma parceria com a Oracle Academy para desenvolver um aplicativo dedicado ao gerenciamento dos parceiros corporativos.
+
+O principal objetivo deste aplicativo é unificar e automatizar as atividades relacionadas à gestão de parcerias de negócios. As principais funcionalidades do sistema incluem o cadastro e a atualização de parceiros com informações detalhadas sobre sua expertise, bem como o acompanhamento do desenvolvimento de conhecimento dos parceiros para fins de remuneração. Além disso, o sistema oferece a extração de relatórios relevantes sobre o desempenho dos parceiros, facilitando a análise e a tomada de decisões estratégicas.
+
+Para garantir uma gestão eficiente, o aplicativo também conta com um módulo administrativo que permite o cadastro, a edição e a exclusão de consultores de alianças, responsáveis por cadastrar e atualizar as informações sobre os parceiros. Essas funcionalidades visam unificar e automatizar as atividades relacionadas à gestão de parcerias de negócios, ao mesmo tempo em que aprimoram a eficiência operacional da organização.
+
+  <br>
+
+   <h3 align="center">Login como Consultor de Alianças.</h3>
+
+<p align="center">
+    <img src="/readme/2024-1/loginConsultorAliancas.gif" width="15%"/>
+    <br>
+    <a href="https://youtube.com/shorts/GcA-2Alec6g?feature=share">Link para uma melhor resolução</a>
+</p>
+
+  <br>
+
+ <h3 align="center">Adicionar parceiro.</h3>
+
+<p align="center">
+    <img src="/readme/2024-1/adicionarParceiro.gif"/>
+    <br>
+    <a href="https://youtube.com/shorts/wMTgTlr982w?feature=share">Link para uma melhor resolução</a>
+</p>
+
+   <br>
+
+<h3 align="center">Adicionar Track e Expertise do parceiro.</h3>
+
+<p align="center">
+    <img src="/readme/2024-1/adicionarTrackExpertise.gif"/>
+    <br>
+    <a href="https://youtube.com/shorts/E7BV9YUvAck?feature=share">Link para uma melhor resolução</a>
+</p>
+
+   <br>
+Para mais informações:
+[GITHUB](https://github.com/JoaoHenrique7/API-FATEC-5-SEM)
+
+#### Tecnologias Utilizadas
+* React Native - Framework utilizado para fazer a parte mobile da aplicação.
+* NodeJS - Linguagem utilizada para desenvolver o backend.
+* MongoDB - Banco de dados não relacional utilizado.
+* Github - Usado para salvar e vercionar o código de toda equipe.
+* Figma - Usado para prototipação das telas e designs das apresentações.
+
+#### Contribuições Pessoais
+
+No decorrer deste projeto fiz parte da composição da equipe de desenvolvimento, sendo responsável no inicio, na criação de toda a estrutura de backend, sendo a implementação do design pattern escolido, toda estrutura de pastas, rotas, services, logs, tudo que seria consumido pelo Frontend.
+
+Já no decorrer da segunda sprint, fiquei com a responsabilidade de criar todo o cadastro de parceiro, onde o mesmo poderia cadastrar os cursos e qualificações da expertises que o interessava. Todo esse processo, necessitou da integração do framework React com o backend NodeJs junto ao banco não relacional MongoDB.
+...continuar 3 e 4 sprint...
+<br>
+
+ <h3 align="center">Editar o perfil consultor de alianças.</h3>
+
+ <p align="center">
+    <img src="/readme/2024-1/editarConsultorAliancas.gif"/>
+    <br>
+    <a href="https://youtube.com/shorts/k-mWljAZT0U">Link para uma melhor resolução</a>
+</p>
+
+   <br>
+
+   <h3 align="center">Adicionar consultor de alianças.</h3>
+<p align="center">
+    <img src="/readme/2024-1/adicionarConsultorAliancas.gif"/>
+    <br>
+    <a href="https://youtube.com/shorts/jaJvUHtxoDg">Link para uma melhor resolução</a>
+</p>
+
+   <br>
+   
+#### Hard Skills
+* React Native - Possuo autonomia para desenvolver o frontend utilizando o framework React Native.
+* NodeJS - Tenho autonomia para desenvolver o backend utilizando NodeJS.
+* Figma - Tenho habilidade para desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.
+* MongoDB - Possuo autonomia para realizar operações de manipulação de dados (CRUD) em sistemas de banco de dados não relacional.
+
+#### Soft Skills
+- **Comunicação:** Utilizei a comunicação para expressar ideias, planos e esclarecer dúvidas com a equipe, visando garantir a eficiência e o progresso das atividades durante a sprint, refinando essas habilidades ao longo do projeto. Também contribuí com a revisão tanto de código quanto de apresentações de slides.
+
+- **Organização:** Ao desenvolver o projeto, aperfeiçoei minhas habilidades de organização ao planejar e priorizar tarefas conforme os requisitos e prazos estabelecidos. Seguindo um cronograma claro e focado, alcancei os objetivos da sprint e contribuí para o sucesso do projeto.
+
+- **Responsabilidade:** Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
 
 ---------
 
