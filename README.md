@@ -313,7 +313,7 @@ Posteriormente, na terceira etapa do projeto, direcionei minha energia para apri
 * SQL - Possuo autonomia para realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e também capacidade de modelar um banco de dados.
     
 #### Soft Skills
- -**Comunicação**: Como Master pratiquei minhas habilidades de comunicação ao apresentar ideias, planos e esclarecer dúvidas com a equipe, com o objetivo de garantir a eficiência e progresso das atividades durante a sprint.
+ - **Comunicação**: Como Master pratiquei minhas habilidades de comunicação ao apresentar ideias, planos e esclarecer dúvidas com a equipe, com o objetivo de garantir a eficiência e progresso das atividades durante a sprint.
  - **Organização:** Como Master exercitei minhas habilidades de organização ao conciliar minhas demandas da sprint com as dos meus colegas, garantindo que eu pudesse ajudar sempre que necessário.
 - **Proatividade:** Como Desenvolvedor demonstrei proatividade ao finalizar minhas atividades e imediatamente buscar outras nas quais pudesse contribuir, além de estar sempre disponível caso meus colegas precisassem.
 - **Responsabilidade:** Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
