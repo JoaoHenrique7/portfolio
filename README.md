@@ -172,7 +172,6 @@ Nessa conjuntura, fomos encarregados de conceber um software desktop projetado p
 
 Um dos elementos cruciais deste empreendimento residia no sistema de autenticação e registro. Isso se deve ao fato de que, durante o processo de cadastro, era imprescindível incluir detalhes específicos, como o nome do canal de vendas (por exemplo: Mercado Livre, Americanas), a categoria do canal (seja Marketplace ou plataforma de pagamento) e o método de autenticação empregado (seja por meio de credenciais de usuário/senha ou Token). Para atender a esses requisitos, dispensamos especial atenção à concepção e desenvolvimento do banco de dados, garantindo que todas as necessidades da Trackcash fossem abordadas de maneira eficiente.
 
-**Observação:** É válido ressaltar que, neste projeto, os clientes também são referidos como canais.
 
 <br>
   <h4 align="center"><br><a href="https://www.youtube.com/watch?v=UtJIXQ2DS-o">Youtube (Qualidade melhor)</a></h4>
@@ -214,30 +213,7 @@ Após a divisão das prioridades em sprints, foi essencial validar o escopo defi
 Paralelamente, a equipe realizou a modelagem do banco de dados, levantando os requisitos de negócio, identificando entidades, atributos e relacionamentos entre elas, elaborando o diagrama entidade-relacionamento (DER) e, por fim, iniciando a implementação do banco de dados.
 
 Durante as entregas, mantivemos contato frequente com o cliente para possíveis ajustes, sempre mantendo a conformidade com a ideia inicial aprovada. No início de cada Sprint, o Backlog era enviado para reforçar as entregas previstas ao longo da Sprint para o cliente.
-
-
-<br>
-  <h3 align="center">Modelo de dados relacional</h3>
-  <h4 align="center">Modelo conceitual<br></h4>
-  <p align="center">
-    <img src="/readme/2022-2/Diagramtrackcash.bmp" width="65%" />
-</p>
-  <p align="justify">A princípio foram identificadas as seguintes entidades: <i>defaultChannels</i>; <i>users</i>; <i>registeredChannelLogin</i>; <i>registeredChannelToken</i>. A entidade <i>defaultChannels</i> contêm informações sobre o canal (chave primária), nome, tipo e padrão de autenticação. A entidade <i>users</i> abriga informações relativas aos usuários (chave primária), nome, e-mail, senha, telefone, documento e tipo de usuário. A entidade <i>registeredChannelLogin</i> contêm informações dos canais do tipo de autenticação usuário/senha, sendo o atributo <i>registeredChannelLogin_id</i> a chave primária; <i>user_id</i> chave estrangeira da tabela <i>users</i>; e <i>channel_id</i> chave estrangeira da tabela <i>defaultChannels</i>. Por fim, <i>registeredChannelToken</i> contempla o tipo de autenticação token, na qual o atributo <i>registeredChannelToken_id</i> a chave primária; <i>user_id</i> chave estrangeira da tabela <i>users</i>; e <i>channel_id</i> chave estrangeira da tabela <i>defaultChannels</i>.</p>
-
-  <br>
-  <h4 align="center">Modelo lógico<br></h4>
-  <p align="center">
-    <img src="/readme/2022-2/apiTrackCashERDiagrama.png" width="65%" />
-  </p>
-  <p align="justify">O modelo de dados lógico é caracterizado pelas entidades: <i>defaultChannels</i>; <i>users</i>; <i>registeredChannelLogin</i>; <i>registeredChannelToken</i>. A entidade <i>defaultChannels</i> contêm os seguintes atributos: <i>channel_id</i> (chave primária) do tipo inteiro, <i>name</i> do tipo baseado em caracteres, <i>type</i> do tipo caracteres; e <i>auth</i> baseado em carateres. A entidade <i>users</i> abriga os atributos: <i>user_id</i> (chave primária) do tipo inteiro, <i>name</i> do tipo baseado em caracteres, <i>email</i> do tipo baseado em caracteres, <i>password</i> do tipo baseado em caracteres, <i>phone</i> do tipo baseado em inteiro, <i>document</i> do tipo baseado em caracteres e <i>type_adm</i> do tipo baseado em caracteres. A entidade <i>registeredChannelLogin</i> contêm informações dos canais do tipo de autenticação usuário/senha, sendo o atributo <i>registeredChannelLogin_id</i> a chave primária do tipo inteiro; <i>login</i> do tipo baseado em caracteres; <i>password</i> do tipo baseado em caracteres; <i>user_id</i> chave estrangeira da tabela <i>users</i>; e <i>channel_id</i> chave estrangeira da tabela <i>defaultChannels</i>. Por fim, <i>registeredChannelToken</i> contempla o tipo de autenticação token, na qual o atributo <i>registeredChannelToken_id</i> a chave primária do tipo inteiro; <i>token</i> do tipo inteiro; <i>user_id</i> chave estrangeira da tabela <i>users</i>; e <i>channel_id</i> chave estrangeira da tabela <i>defaultChannels</i>.</p>
-    <p align="justify">As relações entre as entidades são todas do tipo <b>1:N</b>, onde:</p>
-    <ul>
-      <li align="justify"><i>defaultChannels</i> se associa a muitas ocorrências da entidade <i>registeredChannelToken</i>, mas <i>registeredChannelToken</i> pode se associar a uma ocorrência da entidade <i>defaultChannels</i></li>
-      <li align="justify"><i>defaultChannels</i> se associa a muitas ocorrências da entidade <i>registeredChannelLogin</i>, mas <i>registeredChannelLogin</i> pode se associar a uma ocorrência da entidade <i>defaultChannels</i></li>
-      <li align="justify"><i>users</i> se associa a muitas ocorrências da entidade <i>registeredChannelToken</i>, mas <i>registeredChannelToken</i> pode se associar a uma ocorrência da entidade <i>users</i></li>
-      <li align="justify"><i>users</i> se associa a muitas ocorrências da entidade <i>registeredChannelLogin</i>, mas <i>registeredChannelLogin</i> pode se associar a uma ocorrência da entidade <i>users</i></li>
-    </ul>
-    <br>
+ 
 
 #### Hard Skills
 * Java: Tenho a capacidade de desenvolver de forma autônoma a parte do servidor utilizando essa linguagem, aplicando os princípios da Programação Orientada a Objetos (POO).
@@ -267,37 +243,21 @@ Para mais informações:
 [GITHUB](https://github.com/JoaoHenrique7/API-FATEC-3-SEM/tree/Development)
 
 #### Tecnologias Utilizadas
+* Github - Usado para salvar e vercionar o código de toda equipe.
+* Figma - Usado para prototipação das telas e designs das apresentações.
 * React - Linguagem/Framework utilizado para estruturar o frontend.
 * NodeJS - Linguguem utilizada para estruturar o backend.
 * SQL - Linguagem de Banco de dados escolhida para fazer as querys.
 * Postgres - Banco de dados escolhidos para armazenamento de dados.
-* Github - Usado para salvar e vercionar o código de toda equipe.
-* Figma - Usado para prototipação das telas e designs das apresentações.
 
 #### Contribuições Pessoais
 Durante o desenvolvimento deste projeto, desempenhei diversas funções como integrante da equipe de desenvolvimento. Uma parte significativa do meu trabalho envolveu a elaboração do sistema de autenticação. Nesta fase inicial, trabalhei em estreita colaboração com colegas para desenvolver o sistema de login, criação de conta e recuperação de conta. Além disso, contribuí para a criação das demais rotas do backend, o que me permitiu aprofundar meu conhecimento nas bibliotecas do Node.js.
 
 Adicionalmente, assumi a responsabilidade pela elaboração do backend, com ênfase na criação dos middlewares e no tratamento de dados que seriam utilizados no processo de login e autenticação do usuário. No que diz respeito à recuperação de conta, foi utilizado o e-mail como meio de comunicação para validar se o PIN é válido para a recuperação.
 
-<br>
-  <h3 align="center">Modelo de dados relacional</h3>
-  <h4 align="center">Modelo conceitual<br></h4>
-  <p align="center">
-    <img src="/readme/2023-1/modeloConceitual_BD.png" width="65%" />
-</p>
-  <p align="justify">A princípio foram identificadas as seguintes entidades: <i>User</i> e <i>Profile</i>. A entidade <i>User</i> contêm informações sobre os usuários do sistema com os atributos <i>ID</i> chave primária da tabela; <i>fullName</i>; <i>userName</i>; <i>cpf</i> chave única; <i>email</i>; <i>password</i>; <i>active</i>; <i>createDate</i>; <i>lastUpdate</i>. A entidade <i>Profile</i> abriga informações relativas aos perfis dos usuários, diferenciando os tipos de usuários (p.ex. Administrador e Usuários) através do atributo <i>type</i> para atribuir permissões relativas a cada classificação de perfil.Essa entidade é composta pelos atributos <i>ID</i> que é a chave primária; <i>userID</i> chave estrangeira da tabela <i>Users</i>; e <i>type</i>.</p>
-
-  <br>
-  <h4 align="center">Modelo lógico<br></h4>
-  <p align="center">
-    <img src="/readme/2023-1/modeloLogico_BD.png" width="65%" />
-  </p>
-  <p align="justify">O modelo de dados lógico é caracterizado pelas entidades: <i>User</i> e <i>Profile</i>. A entidade <i>User</i> contêm os seguintes atributos: <i>ID</i> (chave primária) do tipo inteiro, <i>fullName</i> do tipo baseado em caracteres, <i>userName</i> do tipo baseado em caracteres, <i>cpf</i> do tipo baseado em caracteres, <i>email</i> do tipo baseado em caracteres, <i>password</i> do tipo baseado em caracteres, <i>active</i> do tipo booleano, <i>createdDate</i> do tipo dateTime e <i>lastUpdate</i> do tipo dateTime. A entidade <i>Profile</i> contêm os seguintes atributos: <i>ID</i> (chave primária) do tipo inteiro, <i>userID</i> (chave extrangeira) do tipo baseado em caracteres e <i>type</i> do tipo TinyInt. </p>
-    <p align="justify">As relações entre as entidades são todas do tipo <b>1:1</b>, onde:</p>
-    <br>
 
 #### Hard Skills
-* React - Sou capaz de desenvolver o frontend de forma modularizada e orientada a componentes com independência.
+* React - Sou capaz de desenvolver o frontend de forma componentizada.
 * NodeJS - Possuo habilidade para criar o backend utilizando NodeJS de forma autônoma.
 * Docker - Possuo o conceito de manipulação de docker.
 * Figma - Tenho habilidade para desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.
@@ -305,11 +265,11 @@ Adicionalmente, assumi a responsabilidade pela elaboração do backend, com ênf
     
 #### Soft Skills
 
-- **Comunicação:** Minha atuação ativa como Scrum Master na equipe de desenvolvimento me proporcionou uma melhoria significativa em minhas habilidades de comunicação. Facilitar as reuniões diárias e contribuir para as discussões durante os encontros semanais com o professor exigiu uma comunicação clara e eficaz. Por exemplo, em uma dessas reuniões semanais, destaquei os desafios técnicos específicos enfrentados pela equipe e propus soluções colaborativas que abordavam tanto o desenvolvimento do código quanto a organização das tarefas.
+- **Comunicação:** Fui capaz de comunicar de forma clara e eficiente com os membros da equipe e clientes, explicando detalhadamente a implementação da página de login e dos componentes reutilizáveis com React, garantindo uma compreensão mútua e alinhada dos requisitos e funcionalidades.
 
-- **Organização:** Enquanto desempenhava o papel de Scrum Master e membro da equipe de desenvolvimento, desenvolvi minhas habilidades organizacionais ao equilibrar as demandas de ambas as funções. Manter registros atualizados do progresso do projeto e coordenar as atividades da equipe exigiram uma abordagem organizada e proativa. Por exemplo, diante de uma carga de trabalho intensa durante uma sprint, priorizei as tarefas com base nas necessidades do projeto e no cronograma estabelecido, garantindo uma entrega pontual e eficiente.
+- **Resultados:** Me mantive focado em alcançar objetivos específicos do projeto, como a criação do sistema de gerenciamento de usuários com funcionalidades de criação, visualização, edição e remoção, garantindo a entrega de uma solução completa e funcional.
 
-- **Responsabilidade:** Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
+- **Resiliência:** Tive a capacidade de lidar com desafios e contratempos, como a resolução de problemas durante a implementação da lógica de recuperação de senha por e-mail, mantendo-se motivado e perseverante para encontrar soluções eficazes e garantir o progresso contínuo do projetos.
 
 ---
 
@@ -339,22 +299,12 @@ Para mais informações:
 * Figma - Usado para prototipação das telas e designs das apresentações.
 
 #### Contribuições Pessoais
-No desenvolvimento deste projeto, desempenhei o papel de desenvolvedor, contribuindo em diversas etapas cruciais do processo. Inicialmente, minha responsabilidade foi centrada no desenvolvimento do sistema de registro de usuários, permitindo que cada indivíduo inserisse suas informações básicas, como CPF e outros detalhes relevantes. Na segunda fase, concentrei meus esforços na implementação da visualização das transações e saldos individuais de cada usuário, criando uma tabela dinâmica que atualizava automaticamente os saldos conforme as transações eram realizadas. Aproveitei essa etapa para introduzir novas funcionalidades e resolver eventuais problemas encontrados durante a interação com a tabela.
+No desenvolvimento deste projeto, desempenhei o papel de Scrum Master, porém além dessa posição de gerenciamento, tambem  contribuindo em diversas etapas cruciais do processo como desenvolvedor. Inicialmente, minha responsabilidade foi centrada no desenvolvimento do sistema de registro de usuários, permitindo que cada indivíduo inserisse suas informações básicas, como CPF e outros detalhes relevantes. Na segunda fase, concentrei meus esforços na implementação da visualização das transações e saldos individuais de cada usuário, criando uma tabela dinâmica que atualizava automaticamente os saldos conforme as transações eram realizadas. Aproveitei essa etapa para introduzir novas funcionalidades e resolver eventuais problemas encontrados durante a interação com a tabela.
+
+Nesses intervalos de tempo, tinha como objetivo gerenciar o andamento das atividades do meus colegas de time, assim como pontuar as horas trabalhadas com as extimadas no começo da sprint.
+Sempre que podia, também auxiliava no desenvolvimento em par com algum colega de time travado em alguma tarefa.
 
 Posteriormente, na terceira etapa do projeto, direcionei minha energia para aprimorar ainda mais a experiência do usuário. Adicionei novas funcionalidades e realizei correções para garantir o bom funcionamento do sistema. Dedicando-me à correção de bugs e à implementação de melhorias, assegurei que a tabela de transações oferecesse uma experiência fluida e sem problemas para os usuários. Por fim, na última fase, implementei restrições de acesso baseadas nos tipos de usuário, reforçando a segurança e a privacidade dentro da plataforma. Essa medida foi crucial para organizar e controlar o sistema, proporcionando uma experiência de uso mais personalizada e segura para todos os usuários.
-
-<br>
-<h3 align="center">Modelo de dados relacional</h3>
-<h4 align="center">Modelo conceitual<br></h4>
-<p align="center">
-    <img src="/readme/2023-2/modeloConceitualSprint4.png" width="65%"/>
-</p>
-
-<br>
-<h4 align="center">Modelo lógico<br></h4>
-<p align="center">
-    <img src="/readme/2023-2/modeloLogicoSprint4.png" width="65%"/>
-</p>
 
 #### Hard Skills
 * React - Sou capaz de desenvolver o frontend de forma modularizada e orientada a componentes com independência.
@@ -363,9 +313,9 @@ Posteriormente, na terceira etapa do projeto, direcionei minha energia para apri
 * SQL - Possuo autonomia para realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e também capacidade de modelar um banco de dados.
     
 #### Soft Skills
- -**Comunicação**: Pratiquei minhas habilidades de comunicação ao apresentar ideias, planos e esclarecer dúvidas com a equipe, com o objetivo de garantir a eficiência e progresso das atividades durante a sprint.
- - **Organização:** Exercitei minhas habilidades de organização ao conciliar minhas demandas da sprint com as dos meus colegas, garantindo que eu pudesse ajudar sempre que necessário.
-- **Proatividade:** Demonstrei proatividade ao finalizar minhas atividades e imediatamente buscar outras nas quais pudesse contribuir, além de estar sempre disponível caso meus colegas precisassem.
+ -**Comunicação**: Como Master pratiquei minhas habilidades de comunicação ao apresentar ideias, planos e esclarecer dúvidas com a equipe, com o objetivo de garantir a eficiência e progresso das atividades durante a sprint.
+ - **Organização:** Como Master exercitei minhas habilidades de organização ao conciliar minhas demandas da sprint com as dos meus colegas, garantindo que eu pudesse ajudar sempre que necessário.
+- **Proatividade:** Como Desenvolvedor demonstrei proatividade ao finalizar minhas atividades e imediatamente buscar outras nas quais pudesse contribuir, além de estar sempre disponível caso meus colegas precisassem.
 - **Responsabilidade:** Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
 
 ----------
@@ -423,7 +373,9 @@ Para mais informações:
 No decorrer deste projeto fiz parte da composição da equipe de desenvolvimento, sendo responsável no inicio, na criação de toda a estrutura de backend, sendo a implementação do design pattern escolido, toda estrutura de pastas, rotas, services, logs, tudo que seria consumido pelo Frontend.
 
 Já no decorrer da segunda sprint, fiquei com a responsabilidade de criar todo o cadastro de parceiro, onde o mesmo poderia cadastrar os cursos e qualificações da expertises que o interessava. Todo esse processo, necessitou da integração do framework React com o backend NodeJs junto ao banco não relacional MongoDB.
-...continuar 3 e 4 sprint...
+ 
+Ao longo da terceira sprint, foi me atribuido junto ao um dos colegas do time a atividade de implementar os gráficos e Dashboards referentes aos dados encontrados dentro da nossa base do MongoDB. Com isso foi necessário o uso de uma lib que até então nao tinha usado para gerar os gráficos, assim como uma pequena refatoração nos tipos das variáveis do backend.
+.... continuar na sprint 4
 <br>
 
  <h3 align="center">Editar o perfil consultor de alianças.</h3>
