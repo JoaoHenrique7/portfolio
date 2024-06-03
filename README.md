@@ -375,7 +375,8 @@ No decorrer deste projeto fiz parte da composição da equipe de desenvolvimento
 Já no decorrer da segunda sprint, fiquei com a responsabilidade de criar todo o cadastro de parceiro, onde o mesmo poderia cadastrar os cursos e qualificações da expertises que o interessava. Todo esse processo, necessitou da integração do framework React com o backend NodeJs junto ao banco não relacional MongoDB.
  
 Ao longo da terceira sprint, foi me atribuido junto ao um dos colegas do time a atividade de implementar os gráficos e Dashboards referentes aos dados encontrados dentro da nossa base do MongoDB. Com isso foi necessário o uso de uma lib que até então nao tinha usado para gerar os gráficos, assim como uma pequena refatoração nos tipos das variáveis do backend.
-.... continuar na sprint 4
+
+Na conclusão do projeto, na quarta sprint, todos do grupo nos empenhamos em fazer todas as melhorias e correçòes dos erros. Também como uma das atividades finais, Pude contribuir na correçào da busca por filtros, para que fosse mais facil de achar a exprtise desejada, com isso foi necessário tratar o backend para que houvesse a busca corretamente no banco de dados do MongoDB. Além de finalizar a documentaçào geral do projeto no GitHub. 
 <br>
 
  <h3 align="center">Editar o perfil consultor de alianças.</h3>
@@ -409,6 +410,8 @@ Ao longo da terceira sprint, foi me atribuido junto ao um dos colegas do time a 
 - **Organização:** Ao desenvolver o projeto, aperfeiçoei minhas habilidades de organização ao planejar e priorizar tarefas conforme os requisitos e prazos estabelecidos. Seguindo um cronograma claro e focado, alcancei os objetivos da sprint e contribuí para o sucesso do projeto.
 
 - **Responsabilidade:** Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
+
+- **Resultados:** Me mantive focado em alcançar objetivos específicos do projeto, como a criação do sistema de gerenciamento de usuários com funcionalidades de criação, visualização, edição e remoção. Assim como a correção da busca feita por filtro, garantindo assim a entrega de uma solução completa e funcional.
 
 ---------
 
