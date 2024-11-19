@@ -416,4 +416,45 @@ Na conclusão do projeto, na quarta sprint, todos do grupo nos empenhamos em faz
 ---------
 
 ### Em 2024-2
-Mesmo formato
+A dificuldade do setor de marketing em processar grandes volumes de dados de clientes de forma estratégica e eficiente apresenta desafios para análises detalhadas e personalização de campanhas. A necessidade de centralizar informações dispersas, como feedbacks de clientes e dados de vendas, impede decisões rápidas e informadas. Além disso, a ausência de ferramentas para identificar tendências emergentes compromete o alcance e a eficácia das campanhas.
+
+Para solucionar esses problemas, no segundo semestre de 2024, participei do desenvolvimento de uma solução em parceria com a Dom Rock, uma empresa especializada em inteligência artificial. Criamos um chatbot voltado ao setor de marketing, utilizando a arquitetura RAG (Retrieval-Augmented Generation), que permite o acesso a dados vetorizados para respostas mais precisas e personalizadas. Essa ferramenta visa otimizar a análise de dados, personalizar campanhas e identificar tendências com base em informações de clientes.
+
+<br>
+
+Para mais informações:
+[GITHUB](https://github.com/JoaoHenrique7/API-FATEC-6-SEM)
+
+#### Tecnologias Utilizadas
+* Python
+* ChromaDB
+* LangChain
+* LLM (LLaMA)
+* Figma
+* Vue.js
+
+#### Contribuições Pessoais
+Atuei como Desenvolvedor, onde tive o desafio de fazer algo diferente dos CRUDs padrões, que nesse semestre foi proposto a criação de uma IA (inteligência artificial) Generativa.
+
+Na primeira Sprint fiquei encarregado de importar o arquivo cedido pela empresa com os dados para montar o contexto da IA usando Python, com isso foi feito a integração do arquivo .csv em um dataset, para que utilizassemos as colunas necessárias para contextualizar as análises e respostas da IA.
+
+Já na segunda Sprint fiquei com a atividade de implementar o protótipo desenvolvido no figma, já validado pelo cliente. Para o frontend foi usado o VueJS, que é um framework que possuí a ideia de criar componentes com estados que sao possiveis de se reutilizar em diversas partes do sistema.
+Assim foi feito em duas partes, a da sidebar e do chat, onde a da esquerda é a responsável de gerenciar as conversas anteriores pelas datas e tambem de criar as novas conversas. Já o lado direito é responsável pelas conversas e se tem a interação com a IA de fato.
+
+E na terceira e ultima sprint, me foi designada a tarefa de melhorias nas usabilidades do frontend.
+Melhorias como responsividade nas imagens e sidebar, alterando o design do scroll, centralização das mensagens na área do chat, e loading na mensagem enquanto a IA gera a resposta para o usuário. 
+
+<br>
+
+#### Hard Skills
+* Python - Experiência no uso de técnicas de Processamento de Linguagem Natural (PLN) como tokenização, lematização e embeddings para estruturar dados textuais e capturar relações semânticas.
+* ChromaDB - Conhecimento em bancos de dados vetoriais para armazenamento e recuperação de informações contextuais.
+* LangChain - Com conhecimento na configuração e orquestração de pipelines de IA integrando LLMs com ChromaDB, automatizando fluxos de consulta e resposta.
+* LLM (LLaMA) - Experiência na configuração de LLMs adaptados a contextos específicos.
+* Figma - Tenho autonomia no desenvolvimento de protótipos de interfaces responsivas e priorização de UX/UI.
+* Vue.js - Sou capacitado na criação de componentes frontend reutilizáveis e integração eficiente com o backend.
+
+#### Soft Skills
+* Comunicação – Compartilhei de maneira clara e objetiva os resultados obtidos em testes de estratégias de tokenização e embeddings com a equipe, promovendo alinhamento nas decisões do projeto.
+* Pensamento Crítico – Realizei uma avaliação criteriosa dos resultados de diferentes modelos de embeddings e LLMs, identificando a solução mais adequada para os requisitos do projeto.
+* Resiliência – Aprendi conceitos avançados de IA, como arquitetura RAG e modelos LLM, enfrentando a curva de aprendizado com dedicação para superar desafios técnicos e entregar resultados.
