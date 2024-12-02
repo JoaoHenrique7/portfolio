@@ -469,7 +469,7 @@ Para mais informações:
   <br>
 
   <p align="center">
-    <img src="/readme/2024-2/vide02.gif" width="65%" />
+    <img src="/readme/2024-2/video2.gif" width="65%" />
   </p>
 
 #### Tecnologias Utilizadas
