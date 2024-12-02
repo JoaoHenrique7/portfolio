@@ -68,7 +68,7 @@ Gestor de Projetos -  Grupo Guard Brasil.
 
 ### Em 2022-1
 
-No primeiro semestre de 2022, em colaboração com a FATEC, criamos um portal de oportunidades profissionais relacionadas ao campo da Tecnologia da Informação (T.I). Neste portal, os utilizadores tinham acesso a uma variedade de oportunidades divulgadas por empresas de todo o Brasil, acompanhadas por descrições completas. Além disso, os utilizadores também podiam inscrever-se em cursos de formação profissional na área de tecnologia. Por último, apresentamos uma análise visual das vagas e cursos disponíveis no site.
+Diante da dificuldade de encontrar e acompanhar vagas de emprego atualizadas e cursos de capacitação profissional na área de Tecnologia da Informação (T.I.) em um único ambiente digital, foi criado, no primeiro semestre de 2022, em parceria com a FATEC e os professores Antonio Egydio São Thiago Graça e Jean Carlos Lourenço Costa, um website destinado a centralizar oportunidades de trabalho e cursos de qualificação em T.I. A plataforma apresenta vagas anunciadas por empresas de todo o Brasil, com descrições detalhadas, além de uma seção dedicada a cursos de capacitação profissional. Para garantir um conteúdo diversificado e atualizado, o site utiliza técnicas de raspagem de dados para coletar informações de vagas em diversas fontes digitais. Contudo, esse processo exigiu soluções para lidar com mudanças frequentes nas estruturas dos dados das fontes, demandando atualizações contínuas para manter a coleta funcional e as informações precisas. Para oferecer uma experiência mais clara e intuitiva, o site conta ainda com gráficos interativos que organizam as tendências de vagas e cursos, permitindo aos usuários uma navegação prática e uma visão abrangente e acessível do mercado de T.I.
 
 Um dos aspectos fundamentais deste projeto foi garantir uma ampla oferta de empregos. Para alcançar esse objetivo, empregamos técnicas de extração de dados para recolhermos informações de outras fontes digitais e integrá-las no site desenvolvido.
 
@@ -145,11 +145,11 @@ Já na ultima sprint, foi focada em melhorias e correções de bugs, onde pudemo
 
 
 #### Hard Skills
-- **HTML5:** Possuo total autonomia para estruturar páginas web.
-- **CSS3:** Possuo total autonomia para estruturar páginas web.
-- **JavaScript:** Possuo total autonomia para manipular o DOM e desenvolver lógica, além de uso e impletações de Frameroks derivados.
-- **Python:** Tenho total autonomia para desenvolver lógica e manipulação de dados.
-- **SQL:** Possuo total autonomia para realizar operações de manipulação de dados em sistemas de banco de dados (CRUD).
+- **HTML5:** Consigo ensinar a desenvolver interfaces organizadas e responsivas para estruturar páginas web.
+- **CSS3:** Consigo ensinar a estruturar páginas web.
+- **JavaScript:** Consigo ensinar a manipular o DOM e desenvolver lógica, além de uso e impletações de Frameroks derivados.
+- **Python:** Consigo ensinar a desenvolver lógica e manipulação de dados.
+- **SQL:** Consigo ensinar a realizar operações de manipulação de dados em sistemas de banco de dados (CRUD).
 
 #### Soft Skills
 - **Comunicação:** Exercitei minhas habilidades de comunicação para expor ideias, planejamentos e esclarecer dúvidas com a equipe, visando o melhor andamento e desenvolvimento das atividades ao longo da sprint.
@@ -167,6 +167,8 @@ Já na ultima sprint, foi focada em melhorias e correções de bugs, onde pudemo
 ### Em 2022-2
 
 No segundo semestre de 2022, estabelecemos uma parceria com a empresa Trackcash, especializada em soluções de reconciliação financeira direcionadas a e-commerces, marketplaces e estabelecimentos físicos.
+
+A falta de organização e visibilidade das informações financeiras representa um desafio significativo para empresas que atuam em e-commerces, marketplaces e lojas físicas. Esses negócios dependem de dados consolidados e detalhados sobre suas vendas para realizar análises financeiras eficazes e tomar decisões estratégicas. Entretanto, a diversidade de canais de venda, padrões de autenticação e métodos de pagamento torna essa tarefa desafiadora, pois os dados acabam distribuídos em diferentes plataformas, muitas vezes de forma fragmentada. Essa fragmentação dificulta a conciliação financeira, reduz a agilidade na identificação de problemas e limita a capacidade de elaborar estratégias que melhorem o desempenho financeiro.
 
 Nessa conjuntura, fomos encarregados de conceber um software desktop projetado para fornecer aos clientes da Trackcash acesso a dados sobre suas transações. O propósito era oferecer uma experiência intuitiva, apresentando informações através de planilhas e painéis de controle, com o intuito de facilitar a elaboração de estratégias financeiras mais precisas e identificar eventuais gargalos ao término de cada período de vendas.
 
@@ -230,7 +232,9 @@ Durante as entregas, mantivemos contato frequente com o cliente para possíveis 
 ### Em 2023-1
 No primeiro semestre de 2023, firmamos uma parceria com a empresa Visiona. Como parte dessa colaboração, recebemos a responsabilidade de conceber e implementar um sistema de gerenciamento de usuários, utilizando uma abordagem baseada em arquitetura de micro serviços.
 
-O objetivo principal deste empreendimento foi desenvolver uma aplicação web escalável, fundamentada em microsserviços e equipada com um painel de controle intuitivo. Essa plataforma foi projetada para oferecer aos usuários funcionalidades essenciais, como criar, visualizar, editar e excluir perfis de usuário.
+Conforme uma organização se expande, o volume de dados e operações relacionados aos usuários cresce significativamente, tornando a gestão centralizada dos perfis mais desafiadora e propensa a erros. Além disso, a demanda por escalabilidade e uma arquitetura flexível se torna essencial para suportar o aumento da base de usuários sem comprometer a confiabilidade e a consistência dos dados. Outro obstáculo relevante é a necessidade de uma interface intuitiva que facilite o gerenciamento de perfis tanto para administradores quanto para usuários finais. A ausência de um sistema bem-estruturado para executar ações como criação, consulta, edição e exclusão de perfis pode levar a uma experiência confusa e ineficiente, impactando negativamente a usabilidade e a satisfação dos usuários.
+
+A solução foi desenvolver uma aplicação web escalável, fundamentada em microsserviços e equipada com um painel de controle intuitivo. Essa plataforma foi projetada para oferecer aos usuários funcionalidades essenciais, como criar, visualizar, editar e excluir perfis de usuário.
 
 <br>
   <h4 align="center"><br><a href="https://www.youtube.com/watch?v=wU2duyaZ-yg">Youtube (Qualidade melhor)</a></h4>
@@ -257,11 +261,11 @@ Adicionalmente, assumi a responsabilidade pela elaboração do backend, com ênf
 
 
 #### Hard Skills
-* React - Sou capaz de desenvolver o frontend de forma componentizada.
-* NodeJS - Possuo habilidade para criar o backend utilizando NodeJS de forma autônoma.
-* Docker - Possuo o conceito de manipulação de docker.
-* Figma - Tenho habilidade para desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.
-* SQL - Possuo autonomia para realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e também capacidade de modelar um banco de dados.
+* React - Consigo ensinar a desenvolver o frontend de forma componentizada.
+* NodeJS - Consigo ensinar a criar o backend utilizando NodeJS de forma autônoma.
+* Docker - Consigo ensinar a de manipulação do docker.
+* Figma - Consigo ensinar a desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.
+* SQL - Consigo ensinar a realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e também capacidade de modelar um banco de dados.
     
 #### Soft Skills
 
@@ -275,6 +279,8 @@ Adicionalmente, assumi a responsabilidade pela elaboração do backend, com ênf
 
 ### Em 2023-2
 No segundo semestre de 2023, demos início a um projeto em colaboração com a Greenneat, uma plataforma dedicada à promoção da economia circular, concentrada na coleta e reciclagem de óleo de cozinha.
+
+Atualmente, há grandes desafios para organizar e promover a coleta e reciclagem de óleo de cozinha usado, um resíduo altamente prejudicial ao meio ambiente quando descartado de forma inadequada. Quando despejado na natureza, o óleo pode contaminar extensas áreas de água e solo, causando danos ambientais significativos e complicando os processos de tratamento de água nas cidades. Apesar do potencial de reciclagem desse resíduo em produtos úteis, como saneantes, persistem dificuldades logísticas e estruturais para reunir o óleo de forma eficiente e conectar empresas, cooperativas e indivíduos que possam viabilizar sua coleta e reaproveitamento. Além disso, faltam incentivos claros e uma plataforma centralizada que facilite e torne transparente a participação de pessoas e organizações no processo de economia circular. Sem um sistema adequado, cooperativas de reciclagem enfrentam dificuldades para identificar locais de coleta, enquanto geradores de óleo não encontram opções práticas para destiná-lo corretamente, limitando o alcance da reciclagem e o impacto positivo na sustentabilidade.
 
 Criamos uma plataforma online que permite aos parceiros da empresa coletar óleo de estabelecimentos e revendê-lo à Greenneat, recebendo créditos em troca. Esses créditos podem ser utilizados para adquirir saneantes produzidos pela Greenneat e disponibilizados em seu site. Os parceiros também têm acesso a um painel para monitorar suas transações, enquanto os estabelecimentos acompanham suas compras e saldos de crédito. O administrador supervisiona a plataforma e tem acesso a um painel de controle com informações relevantes, como o desempenho de descarte e a participação dos parceiros e estabelecimentos na economia circular.
 
@@ -307,10 +313,10 @@ Sempre que podia, também auxiliava no desenvolvimento em par com algum colega d
 Posteriormente, na terceira etapa do projeto, direcionei minha energia para aprimorar ainda mais a experiência do usuário. Adicionei novas funcionalidades e realizei correções para garantir o bom funcionamento do sistema. Dedicando-me à correção de bugs e à implementação de melhorias, assegurei que a tabela de transações oferecesse uma experiência fluida e sem problemas para os usuários. Por fim, na última fase, implementei restrições de acesso baseadas nos tipos de usuário, reforçando a segurança e a privacidade dentro da plataforma. Essa medida foi crucial para organizar e controlar o sistema, proporcionando uma experiência de uso mais personalizada e segura para todos os usuários.
 
 #### Hard Skills
-* React - Sou capaz de desenvolver o frontend de forma modularizada e orientada a componentes com independência.
-* NodeJS - Possuo habilidade para criar o backend utilizando NodeJS de forma autônoma.
-* Figma - Tenho habilidade para desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.
-* SQL - Possuo autonomia para realizar operações básicas de manipulação de dados em sistemas de banco de dados (CRUD) e também capacidade de modelar um banco de dados.
+* React - Consigo ensinar a desenvolver o frontend de forma modularizada e orientada a componentes com independência.
+* NodeJS - Consigo ensinar a criar o backend utilizando NodeJS de forma autônoma.
+* Figma - Consigo ensinar a desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.
+* SQL - Consigo ensinar a realizar operações de manipulação de dados em sistemas de banco de dados (CRUD) e também capacidade de modelar um banco de dados.
     
 #### Soft Skills
  - **Comunicação**: Como Master pratiquei minhas habilidades de comunicação ao apresentar ideias, planos e esclarecer dúvidas com a equipe, com o objetivo de garantir a eficiência e progresso das atividades durante a sprint.
@@ -322,6 +328,8 @@ Posteriormente, na terceira etapa do projeto, direcionei minha energia para apri
 ### Em 2024-1
 
 No primeiro semestre de 2024, foi estabelecida uma parceria com a Oracle Academy para desenvolver um aplicativo dedicado ao gerenciamento dos parceiros corporativos.
+
+A gestão eficiente e estratégica de parcerias corporativas em uma organização com uma ampla rede de parceiros apresenta significativos desafios para a Oracle. A empresa enfrenta dificuldades na centralização e atualização das informações relacionadas aos seus parceiros, o que complica o acompanhamento de aspectos como progresso, expertise e impacto das colaborações. Outro problema é a administração dos consultores de alianças, responsáveis por registrar e atualizar dados sobre os parceiros. Em um cenário descentralizado, esses profissionais frequentemente encontram obstáculos para conduzir suas atividades de maneira consistente e eficiente.
 
 O principal objetivo deste aplicativo é unificar e automatizar as atividades relacionadas à gestão de parcerias de negócios. As principais funcionalidades do sistema incluem o cadastro e a atualização de parceiros com informações detalhadas sobre sua expertise, bem como o acompanhamento do desenvolvimento de conhecimento dos parceiros para fins de remuneração. Além disso, o sistema oferece a extração de relatórios relevantes sobre o desempenho dos parceiros, facilitando a análise e a tomada de decisões estratégicas.
 
@@ -399,10 +407,10 @@ Na conclusão do projeto, na quarta sprint, todos do grupo nos empenhamos em faz
    <br>
    
 #### Hard Skills
-* React Native - Possuo autonomia para desenvolver o frontend utilizando o framework React Native.
-* NodeJS - Tenho autonomia para desenvolver o backend utilizando NodeJS.
-* Figma - Tenho habilidade para desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.
-* MongoDB - Possuo autonomia para realizar operações de manipulação de dados (CRUD) em sistemas de banco de dados não relacional.
+* React Native - Consigo ensinar a desenvolver o frontend utilizando o framework React Native.
+* NodeJS - Consigo ensinar a desenvolver o backend utilizando NodeJS.
+* Figma - Consigo ensinar a desenvolver um wireframe/protótipo de projetos utilizando a ferramenta.
+* MongoDB - Consigo ensinar a realizar operações de manipulação de dados (CRUD) em sistemas de banco de dados não relacional.
 
 #### Soft Skills
 - **Comunicação:** Utilizei a comunicação para expressar ideias, planos e esclarecer dúvidas com a equipe, visando garantir a eficiência e o progresso das atividades durante a sprint, refinando essas habilidades ao longo do projeto. Também contribuí com a revisão tanto de código quanto de apresentações de slides.
@@ -447,12 +455,12 @@ Melhorias como responsividade nas imagens e sidebar, alterando o design do scrol
 <br>
 
 #### Hard Skills
-* Python - Experiência no uso de técnicas de Processamento de Linguagem Natural (PLN) como tokenização, lematização e embeddings para estruturar dados textuais e capturar relações semânticas.
-* ChromaDB - Conhecimento em bancos de dados vetoriais para armazenamento e recuperação de informações contextuais.
-* LangChain - Com conhecimento na configuração e orquestração de pipelines de IA integrando LLMs com ChromaDB, automatizando fluxos de consulta e resposta.
-* LLM (LLaMA) - Experiência na configuração de LLMs adaptados a contextos específicos.
-* Figma - Tenho autonomia no desenvolvimento de protótipos de interfaces responsivas e priorização de UX/UI.
-* Vue.js - Sou capacitado na criação de componentes frontend reutilizáveis e integração eficiente com o backend.
+* Python - Consigo ensinar técnicas de Processamento de Linguagem Natural (PLN) como tokenização, lematização e embeddings para estruturar dados textuais e capturar relações semânticas.
+* ChromaDB - Faço com autonomia o desenvolvimento de bancos de dados vetoriais para armazenamento e recuperação de informações contextuais.
+* LangChain - Faço com autonomia a configuração e orquestração de pipelines de IA integrando LLMs com ChromaDB, automatizando fluxos de consulta e resposta.
+* LLM (LLaMA) - Faço com autonomia a configuração de LLMs adaptados a contextos específicos.
+* Figma - Consigo ensinar o desenvolvimento de protótipos de interfaces responsivas e priorização de UX/UI.
+* Vue.js - Consigo ensinar a criação de componentes frontend reutilizáveis e integração eficiente com o backend.
 
 #### Soft Skills
 * Comunicação – Compartilhei de maneira clara e objetiva os resultados obtidos em testes de estratégias de tokenização e embeddings com a equipe, promovendo alinhamento nas decisões do projeto.
