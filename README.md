@@ -92,6 +92,8 @@ Um dos aspectos fundamentais deste projeto foi garantir uma ampla oferta de empr
     <img src="/readme/2022-1/gif_localizacao_pagweb.gif" width="60%" />
 </p>
 
+<details>
+
 <br>
   <h4 align="center"><br><a href="https://youtu.be/MpbO26x4V6s">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
@@ -121,6 +123,8 @@ Um dos aspectos fundamentais deste projeto foi garantir uma ampla oferta de empr
     <img src="/readme/2022-1/raspagem.gif" width="60%" />
 </p>
 <br>
+
+</details>
 
 Para mais informações:
 [GIT](https://github.com/JoaoHenrique7/API-FATEC-1-SEM)
@@ -168,15 +172,15 @@ Já na ultima sprint, foi focada em melhorias e correções de bugs, onde pudemo
 
 #### Soft Skills
 
-- **Comunicação:** Exercitei minhas habilidades de comunicação para expor ideias, planejamentos e esclarecer dúvidas com a equipe, visando o melhor andamento e desenvolvimento das atividades ao longo da sprint.
+- **Comunicação:** Durante a primeira reunião da sprint, sugeri que utilizássemos o Bootstrap para padronizar a estilização das páginas, já que o design do sistema não seguia um padrão, o que gerava inconsistências visuais. Essa sugestão foi discutida e aceita pela equipe.
 
-- **Organização:** Exercitei minhas habilidades de organização ao conciliar minhas demandas da sprint com as dos meus colegas, garantindo que eu pudesse ajudar sempre que necessário.
+- **Organização:** Planejei minhas atividades da sprint utilizando um quadro de tarefas, priorizando tarefas mais críticas, como a criação de endpoints para a raspagem, e reservei tempo para ajudar os meus colegas, garantindo suporte ao time quando necessário.
 
-- **Proatividade:** Demonstrei proatividade ao finalizar minhas atividades e imediatamente buscar outras nas quais pudesse contribuir, além de estar sempre disponível caso meus colegas precisassem.
+- **Proatividade:** Após finalizar a implementação do sistema de login, ofereci ajuda para ajustar o fluxo de autenticação que um colega estava desenvolvendo, detectando e corrigindo problemas de integração entre frontend e backend.
 
-- **Responsabilidade:** Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
+- **Responsabilidade:** Durante a sprint, assumi o compromisso de entregar o módulo de cadastro de usuários e finalizei a tarefa antes do prazo, garantindo que fosse testada e funcional para a integração com o restante do sistema.
 
-- **Empatia:** Pratiquei empatia ao reconhecer e considerar as necessidades e perspectivas dos meus colegas de equipe, criando um ambiente de trabalho colaborativo e positivo.
+- **Empatia:** Durante um feedback de equipe, percebi que um colega estava com dificuldades para implementar um recurso devido à sua falta de experiência com área de desenvolvimento. Ofereci apoio explicando os conceitos necessários e revisando seu código, promovendo um ambiente mais colaborativo.
 
 ---
 
@@ -196,6 +200,7 @@ Um dos elementos cruciais deste empreendimento residia no sistema de autenticaç
     <img src="/readme/2022-2/Cadastro_canais_adm.gif" width="60%" />
 </p>
 
+<details>
 <br>
   <h4 align="center"><br><a href="https://youtu.be/MpbO26x4V6s">Youtube (Qualidade melhor)</a></h4>
   <p align="center">
@@ -208,6 +213,7 @@ Um dos elementos cruciais deste empreendimento residia no sistema de autenticaç
     <img src="/readme/2022-2/Config_canais_token.gif" width="60%" />
 </p>
 <br>
+</details>
 
 Para mais informações:
 [GIT](https://github.com/JoaoHenrique7/API-FATEC-2-SEM/tree/main)
@@ -240,9 +246,9 @@ Durante as entregas, mantivemos contato frequente com o cliente para possíveis 
 
 #### Soft Skills
 
-- **Comunicação:** Por estar na posição de PO, tive a oportunidade de aprimorar minhas habilidades de comunicação ao interagir com o cliente, além dos demais integrantes da equipe e pude compartilhar minhas ideias durante as reuniões diárias. Além disso, durante as sessões de revisão de código e planejamento, tive a chance de expressar minhas opiniões e contribuir para a discussão sobre as melhores abordagens para a implementação de funcionalidades.
-- **Organização:** Pela parte de PO, organizar as ideias do cliente para passar a equipe de desenvolviemnto, já no desenvolvimento do projeto, tive a oportunidade de praticar minhas habilidades de organização ao planejar e priorizar minhas tarefas de acordo com os requisitos e prazos estabelecidos. Ao manter um cronograma claro e focado, consegui cumprir os objetivos da sprint e contribuir para o sucesso do projeto.
-- **Liderança:** Durante o desenvolvimento do projeto, tive a oportunidade de demonstrar minha liderança ao assumir a iniciativa e propor ideias para melhores estratégias do desenvolvimento.
+- **Comunicação:** Como PO, durante uma reunião com o cliente, interpretei e documentei os requisitos para uma funcionalidade de exportação de relatórios, esclarecendo dúvidas sobre o formato dos arquivos e os dados que deveriam ser incluídos. Após isso, apresentei as informações à equipe de desenvolvimento durante as reuniões de checkpoint, garantindo alinhamento entre as partes.
+- **Organização:** Organizei as ideias do cliente criando um backlog claro no board de atividades, priorizando as funcionalidades mais críticas, como a integração com a API de pagamento. Compartilhei o roadmap com a equipe, dividindo as tarefas em sprints e garantindo que todos entendessem os objetivos de curto e longo prazo.
+- **Liderança:** Durante o planejamento da sprint, percebi a necessidade de reduzir o escopo de uma funcionalidade para cumprir o prazo sem comprometer a qualidade. Propus uma abordagem iterativa, onde implementaríamos a funcionalidade básica primeiro e as melhorias nas próximas sprints. Essa decisão foi aceita pela equipe e alinhada com o cliente.
 
 ---
 
@@ -308,12 +314,15 @@ Criamos uma plataforma online que permite aos parceiros da empresa coletar óleo
   <p align="center">
     <img src="/readme/2023-2/cadastro.gif" width="65%" />
   </p>
-  
-  <br>
+
+  <details>
+     <br>
   <p align="center">
     <img src="/readme/2023-2/login_recuperacaoSenha.gif" width="65%" />
   </p>
-
+ 
+  </details>
+ 
 Para mais informações:
 [GITHUB](https://github.com/JoaoHenrique7/API-FATEC-4-SEM)
 
@@ -347,7 +356,7 @@ Posteriormente, na terceira etapa do projeto, direcionei minha energia para apri
 - **Comunicação**: Como Master pratiquei minhas habilidades de comunicação ao apresentar ideias, planos e esclarecer dúvidas com a equipe, com o objetivo de garantir a eficiência e progresso das atividades durante a sprint.
 - **Organização:** Como Master exercitei minhas habilidades de organização ao conciliar minhas demandas da sprint com as dos meus colegas, garantindo que eu pudesse ajudar sempre que necessário.
 - **Proatividade:** Como Desenvolvedor demonstrei proatividade ao finalizar minhas atividades e imediatamente buscar outras nas quais pudesse contribuir, além de estar sempre disponível caso meus colegas precisassem.
-- **Responsabilidade:** Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
+- **Responsabilidade:** Demonstrei responsabilidade como cumprir as metas estabelecidas nas sprints.
 
 ---
 
@@ -371,7 +380,9 @@ Para garantir uma gestão eficiente, o aplicativo também conta com um módulo a
     <a href="https://youtube.com/shorts/GcA-2Alec6g?feature=share">Link para uma melhor resolução</a>
 </p>
 
-  <br>
+<details>
+
+<br>
 
  <h3 align="center">Adicionar parceiro.</h3>
 
@@ -390,6 +401,8 @@ Para garantir uma gestão eficiente, o aplicativo também conta com um módulo a
     <br>
     <a href="https://youtube.com/shorts/E7BV9YUvAck?feature=share">Link para uma melhor resolução</a>
 </p>
+
+</details>
 
    <br>
 Para mais informações:
@@ -441,13 +454,13 @@ Na conclusão do projeto, na quarta sprint, todos do grupo nos empenhamos em faz
 
 #### Soft Skills
 
-- **Comunicação:** Utilizei a comunicação para expressar ideias, planos e esclarecer dúvidas com a equipe, visando garantir a eficiência e o progresso das atividades durante a sprint, refinando essas habilidades ao longo do projeto. Também contribuí com a revisão tanto de código quanto de apresentações de slides.
+- **Comunicação:** Durante a daily, compartilhei a ideia de otimizar a consulta ao banco de dados usando índices para melhorar o desempenho de uma busca por filtros, o que foi aceito pela equipe e implementado com sucesso. Também contribuí revisando o código de um colega, sugerindo ajustes na lógica de autenticação e garantindo consistência com as boas práticas.
 
-- **Organização:** Ao desenvolver o projeto, aperfeiçoei minhas habilidades de organização ao planejar e priorizar tarefas conforme os requisitos e prazos estabelecidos. Seguindo um cronograma claro e focado, alcancei os objetivos da sprint e contribuí para o sucesso do projeto.
+- **Organização:** Planejei minhas atividades no board, priorizando a implementação das funcionalidades de gerenciamento de usuários. Dividi a tarefa em etapas (criação, edição e remoção de usuários) para garantir que cada uma fosse entregue dentro do prazo e com qualidade, evitando acúmulo de demandas no final da sprint.
 
-- **Responsabilidade:** Demonstrei responsabilidade ao cumprir as metas estabelecidas nas sprints.
+- **Responsabilidade:** Assumi a tarefa de corrigir um bug crítico na funcionalidade de gráficos, que estava impactando a experiência do usuário. Identifiquei a causa do problema, implementei a solução e garanti que os testes fossem realizados antes da entrega.
 
-- **Resultados:** Me mantive focado em alcançar objetivos específicos do projeto, como a criação do sistema de gerenciamento de usuários com funcionalidades de criação, visualização, edição e remoção. Assim como a correção da busca feita por filtro, garantindo assim a entrega de uma solução completa e funcional.
+- **Resultados:** Desenvolvi e entreguei o sistema de gerenciamento de usuários com as funcionalidades de criação, edição, visualização e remoção, além de corrigir a busca por filtro, assegurando que o sistema estivesse completo e funcional dentro do prazo estabelecido.
 
 ---
 
@@ -466,20 +479,24 @@ Para mais informações:
     <img src="/readme/2024-2/video1.gif" width="65%" />
   </p>
 
+  <details>
+
   <br>
 
   <p align="center">
     <img src="/readme/2024-2/video2.gif" width="65%" />
   </p>
+  
+  </details>
 
 #### Tecnologias Utilizadas
 
-- Python
-- ChromaDB
-- LangChain
-- LLM (LLaMA)
-- Figma
-- Vue.js
+- Python - Linguagem utilizada para automação, desenvolvimento web, ciência de dados, inteligência artificial e machine learning.
+- ChromaDB - Banco de dados vetorial utilizado para armazenar e buscar vetores de embeddings em aplicações de IA generativa.
+- LangChain - Framework utilizado para construir fluxos de trabalho com grandes modelos de linguagem (LLMs), como chatbots e sistemas de IA personalizados.
+- LLM (LLaMA) - Modelo de linguagem utilizado para geração e compreensão de texto em aplicações como assistentes virtuais e chatbots.
+- Figma - Usado para prototipação de telas, design de interfaces de usuário e colaboração entre equipes.
+- Vue.js - Framework utilizado para desenvolvimento frontend de aplicações web reativas e interativas.
 
 #### Contribuições Pessoais
 
@@ -506,6 +523,6 @@ Melhorias como responsividade nas imagens e sidebar, alterando o design do scrol
 
 #### Soft Skills
 
-- Comunicação – Compartilhei de maneira clara e objetiva os resultados obtidos em testes de estratégias de tokenização e embeddings com a equipe, promovendo alinhamento nas decisões do projeto.
-- Pensamento Crítico – Realizei uma avaliação criteriosa dos resultados de diferentes modelos de embeddings e LLMs, identificando a solução mais adequada para os requisitos do projeto.
-- Resiliência – Aprendi conceitos avançados de IA, como arquitetura RAG e modelos LLM, enfrentando a curva de aprendizado com dedicação para superar desafios técnicos e entregar resultados.
+- Comunicação – Durante uma reunião de alinhamento, apresentei os resultados dos testes comparativos entre duas estratégias de tokenização, explicando como uma delas reduziu em 20% o custo de processamento ao utilizar embeddings menores. Essa explicação ajudou a equipe a decidir pela melhor abordagem para o projeto.
+- Pensamento Crítico – Avaliei os resultados obtidos ao testar modelos de embeddings, como OpenAI e ChromaDB, e identifiquei que o modelo ChromaDB apresentava maior eficiência em buscas semânticas, sendo a melhor solução para atender aos requisitos de performance do projeto.
+- Resiliência – Durante o estudo e implementação da arquitetura RAG (Retrieval-Augmented Generation), dediquei-me a compreender o funcionamento de LLMs e sua integração com bancos de dados vetoriais, superando dificuldades técnicas iniciais e garantindo a entrega de uma solução funcional dentro do prazo.
